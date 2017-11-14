@@ -1,0 +1,476 @@
+
+html,
+header,
+footer,
+article {
+margin: 0px;
+}
+
+ h1.affiliate
+{
+        font-size: 6em;
+        color: #dc9f09;
+        text-align: center;
+}
+
+div.collapse > p
+{
+	outline: 1px solid #000;
+}
+
+.img-thumbnail
+{
+   border: 0px solid #000;
+}
+
+.content-affiliates
+{
+	outline: 1px solid #000;
+}
+
+div.content-affiliates > div.container
+{
+	outline: 0px solid #000;
+}
+
+div.content-affiliates > div.container > div.row
+{
+	outline: 0px solid #000;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0em;
+	margin-right: 0em;	
+	vertical-align: top;
+	height: 220px;
+}
+
+nav.navbar-trans
+{
+	background-color: transparent;
+}
+    
+nav.navbar-trans > div#navbarNav > ul.navbar-nav > li.nav-item
+{
+	
+	outline: 0px solid #fff;
+}    
+   
+nav.navbar-trans > div#navbarNav > ul.navbar-nav > li.nav-item > a.nav-link
+{
+	color: #ddd;
+	text-decoration: none;
+	outline: 0px solid #fff;
+	font-size: 1.2em;
+}     
+    
+nav.navbar-trans > div#navbarNav > ul.navbar-nav > li.nav-item > a.nav-link:hover,
+nav.navbar-trans > div#navbarNav > ul.navbar-nav > li.nav-item > a.nav-link:focus   
+{
+	 color: #dc9f09;
+	background-color: transparent;
+}    
+
+.hero
+{
+    height: 560px;
+    background:
+            linear-gradient(
+             rgba(35, 70, 105, 0.6),
+             rgba(3, 119, 252, 0.6)
+            ),
+            url("../images/breather-mini.jpg") no-repeat 0% 100% fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+div.container > ul > li > a
+{
+    color: #ddd;
+    text-decoration: none;
+}
+
+div.container > ul > li > a:hover,
+div.container > ul > li > a:focus
+{
+    color: #dc9f09;
+}
+
+div.container > div.row > h1
+{
+    font-size: 4em;
+    line-height: 2em;
+    color: #ddd;
+    margin-top: 2em;
+
+}
+
+
+
+div.row > .section
+{
+    height: 340px;
+
+}
+
+.space
+{
+    margin-top: 4em;
+}
+
+/* Styles needed to maintain GRID structure for the
+	IMAGES within the Affiliate Partners 
+	SECTION of the landing page.  */
+div.affiliates > div.img-grid-1,
+div.affiliates > div.img-grid-2
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+div.container > div.row > div.col-md-4 > div#blurb-1,
+div.container > div.row > div.col-md-4 > div#blurb-2,
+div.container > div.row > div.col-md-4 > div#blurb-3,
+div.container > div.row > div.col-md-4 > div#blurb-4,
+div.container > div.row > div.col-md-4 > div#blurb-5,
+div.container > div.row > div.col-md-4 > div#blurb-6
+{
+	flex-direction: row;
+	width: 175px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	outline: 1px solid #000;
+	margin: 2em 16%;
+}
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    
+   
+	.content-2
+    {
+        height: 680px;
+        background:
+                linear-gradient(
+                 rgba(220, 159, 9, 0.6),
+                 rgba(220, 159, 9, 0.6)
+                ),
+                url("../images/aaron-burden.jpg") no-repeat 0% 100% fixed;
+        background-size: cover;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    
+    .content-2 h4
+    {
+        font-size: 4em;
+        color: #ddd;
+    }
+    
+    div.container > div.row > h1
+    {
+        font-size: 6em;
+        line-height: 1.4em;
+        color: #ddd;
+        margin-top: 1.0em;
+    
+    }
+
+
+    }
+    
+    /* Landscape tablets and medium desktops */
+    @media (min-width: 992px) and (max-width: 1199px) {
+    
+    
+        h1.affiliate
+        {   
+             color: #dc9f09;
+            text-align: center;
+            margin: 0em;
+            font-size: 5.8em;
+        }    
+
+
+        div.container > div.row > h1
+        {
+            font-size: 4.6em;
+            line-height: 1.4em;
+            color: #ddd;
+            margin-top: 1.0em;
+        
+        }
+
+        .content-2
+        {
+            height: 2242px;
+            background:
+                    linear-gradient(
+                     rgba(220, 159, 9, 0.6),
+                     rgba(220, 159, 9, 0.6)
+                    ),
+                    url("../images/aaron-burden.jpg") no-repeat 0% 100% fixed;
+            background-size: cover;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        
+        .content-2 h4
+        {
+            font-size: 4em;
+            color: #ddd;
+        }
+        
+
+
+    }
+    
+    /* Portrait tablets and small desktops */
+    @media (min-width: 768px) and (max-width: 991px) {
+    
+    
+           	
+/* Styles needed to maintain GRID structure for the
+	IMAGES within the Affiliate Partners 
+	SECTION of the landing page; during mobile device viewing.  */
+div.space > div.img-grid-1
+{
+	outline: 0px solid #000;
+	margin-top: 2em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+div.space > div.img-grid-2
+{
+	outline: 0px solid #000;
+	margin-top: 3em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+		
+        
+        div.container > div.row > h1
+        {
+            font-size: 6em;
+            line-height: 1.4em;
+            color: #ddd;
+            margin-top: 0em;
+        
+        }
+
+        h1.affiliate
+        {   
+             color: #dc9f09;
+            text-align: center;
+            margin: 0em;
+            font-size: 4.2em;
+        }    
+
+        .content-2
+        {
+            height: 1980px;
+            background:
+                    linear-gradient(
+                     rgba(220, 159, 9, 0.6),
+                     rgba(220, 159, 9, 0.6)
+                    ),
+                    url("../images/aaron-burden.jpg") no-repeat 0% 100%;
+            background-size: cover;
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        .content-2 h4
+        {
+            font-size: 4em;
+            color: #fff;
+        }
+
+        div.row > div.col-sm-12 > img.img-responsive
+        {
+            margin-left: 34%;
+        }
+        
+    
+
+    }
+    
+    /* Landscape phones and portrait tablets */
+    @media (max-width: 767px) {
+
+		       	
+/* Styles needed to maintain GRID structure for the
+	IMAGES within the Affiliate Partners 
+	SECTION of the landing page; during mobile device viewing.  */
+div.space > div.img-grid-1
+{
+	outline: 0px solid #000;
+	margin-top: 2em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+div.space > div.img-grid-2
+{
+	outline: 0px solid #000;
+	margin-top: 3em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+		
+
+div.container > div.row > div.col-md-4 > div#blurb-1,
+div.container > div.row > div.col-md-4 > div#blurb-2,
+div.container > div.row > div.col-md-4 > div#blurb-3,
+div.container > div.row > div.col-md-4 > div#blurb-4,
+div.container > div.row > div.col-md-4 > div#blurb-5,
+div.container > div.row > div.col-md-4 > div#blurb-6
+{
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	outline: 1px solid #000;
+	margin: 2em 16%;
+}
+		
+	
+	
+        .content-2
+        {
+            height: 1560px;
+            background:
+                    linear-gradient(
+                     rgba(220, 159, 9, 0.6),
+                     rgba(220, 159, 9, 0.6)
+                    ),
+                    url("../images/aaron-burden.jpg") no-repeat 0% 100%;
+            background-size: cover;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content-2 h4
+        {
+            font-size: 4em;
+            color: #0B8ADF;
+        }
+        
+    
+        div.row > div.col-sm-12 > img.img-responsive
+        {
+            margin-left: 34%;
+        }
+
+        div.row > div.col-sm-12
+        {
+            margin-bottom: 2.8em;
+        }
+
+        div.container > div.row > h1
+        {
+            font-size: 2em;
+            line-height: 2em;
+            color: #ddd;
+            margin-top: 2em;
+        
+        }
+    }
+    
+    /* Portrait phones and smaller */
+    @media (max-width: 480px) {
+
+        h1.affiliate
+        {
+            margin: 0em;    
+            font-size: 3.3em;
+            color: #dc9f09;
+            margin-left: 0.2em;
+        }
+
+        img
+        {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        div.row > div.col-sm-12 > img.img-responsive
+        {
+            margin-top: 16%;
+            margin-left: 18%;
+        }
+
+        div.row > div.col-sm-12
+        {
+            margin-bottom: 2.8em;
+        }
+
+        .hero
+        {
+            height: 520px;
+            background:
+                    linear-gradient(
+                     rgba(35, 70, 105, 0.6),
+                     rgba(3, 119, 252, 0.6)
+                    ),
+                    url("../images/breather-mini.jpg") no-repeat 0% 100%;
+            background-size: cover;
+            text-align: center;
+        }
+
+
+        div.container > div.row > h1
+        {
+            font-size: 3.8em;
+            line-height: 1.2em;
+            margin: 0em;
+            color: #ddd;
+           
+        
+        }
+
+        .content-2
+        {
+            height: 1600px;
+            background:
+                    linear-gradient(
+                     rgba(220, 159, 9, 0.6),
+                     rgba(220, 159, 9, 0.6)
+                    ),
+                    url("../images/aaron-burden.jpg") no-repeat 0% 100%;
+            background-size: cover;
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        .content-2 h4
+        {
+            font-size: 4em;
+            color: #ddd;
+        }
+        
+
+    }
